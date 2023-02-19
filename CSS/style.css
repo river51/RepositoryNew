@@ -28,6 +28,7 @@ h2{
   border-radius: var(--radius);
   color: var(--second-color);
   font-size: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.263);
 }
 .buttonVery:hover{
   cursor: pointer;
