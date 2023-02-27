@@ -1,27 +1,31 @@
-.header{
-  max-width: 700px;
+.header {
   margin: 0 auto;
   margin-top: 100px;
 }
-:root{
-  --primary-color: #4682B4;
+:root {
+  --primary-color: #4682b4;
   --radius: 5px;
   --second-color: #fff;
 }
-h1{
-  text-align: center}
-.name-my{
+.link {
+  padding: 15px;
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: var(--second-color);
+  text-decoration: none;
+}
+.name-my {
   font-size: 45px;
 }
-h2{
+h2 {
   text-align: center;
 }
-.button{
+.button {
   display: flex;
   justify-content: center;
   margin-top: 90px;
 }
-.buttonVery{
+.buttonVery {
   background: var(--primary-color);
   padding: 24px;
   border: none;
@@ -30,10 +34,10 @@ h2{
   font-size: 15px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.263);
 }
-.buttonVery:hover{
+.buttonVery:hover {
   cursor: pointer;
 }
-.veryButton{
+.veryButton {
   border: 1px solid var(--primary-color);
   padding: 24px;
   background: var(--second-color);
@@ -41,30 +45,20 @@ h2{
   color: var(--primary-color);
   font-size: 15px;
 }
-.veryButton:hover{
+.veryButton:hover {
   cursor: pointer;
 }
-.textVery{
+.textVery {
   margin-right: 50px;
 }
-.infoText{
-  display: flex;
-  justify-content: space-around;
+.infoText {
+  margin-top: 30px;
 }
-p{
-  flex: 1;
-  margin: 12px;
-  padding: 8px;
-  background: #bbcfe0;
-  font-size: 19px;
-  border-radius: var(--radius);
-  text-align: justify;
-}
-.homepage{
+.homepage {
   display: block;
   text-align: center;
   color: var(--primary-color);
 }
-.back{
+.back {
   margin-top: 100px;
 }
